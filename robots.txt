@@ -1,0 +1,37 @@
+# Robots.txt for Miroxa AI
+# https://miroxa.ai
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://miroxa.ai/sitemap.xml
+
+# Disallow admin and API routes (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# GPTBot (OpenAI)
+User-agent: GPTBot
+Allow: /
+
+# Claude (Anthropic)
+User-agent: Claude-Web
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
